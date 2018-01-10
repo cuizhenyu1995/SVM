@@ -1,0 +1,17 @@
+﻿Build started 2018/1/11 2:29:44.
+     1>Project "D:\svm\build-win64-vs2013\SystemVue\SystemVue-svm.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\SystemVue2016.08\ModelBuilder\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DLL /D SV_MODEL_BUILDER /D LIBNAME=svm /D _UNICODE /D UNICODE /D _USRDLL /D "CMAKE_INTDIR=\"Debug\"" /D SystemVue_svm_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"SystemVue-svm.dir\Debug\\" /Fd"SystemVue-svm.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt svm_run.cpp
+         svm_run.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\svm\build-win64-vs2013\SystemVue\Debug\svm.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files\SystemVue2016.08\\ModelBuilder\lib\Win64\SystemVueDataFlow.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/svm/build-win64-vs2013/SystemVue/Debug/svm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/svm/build-win64-vs2013/SystemVue/Debug/svm.lib" /MACHINE:X64  /machine:x64 /debug /DLL "SystemVue-svm.dir\Debug\Version.res"
+         "SystemVue-svm.dir\Debug\LibraryProperties.obj"
+         "SystemVue-svm.dir\Debug\svm_in.obj"
+         "SystemVue-svm.dir\Debug\svm_run.obj"
+            Creating library D:/svm/build-win64-vs2013/SystemVue/Debug/svm.lib and object D:/svm/build-win64-vs2013/SystemVue/Debug/svm.exp
+         SystemVue-svm.vcxproj -> D:\svm\build-win64-vs2013\SystemVue\Debug\svm.dll
+     1>Done Building Project "D:\svm\build-win64-vs2013\SystemVue\SystemVue-svm.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.48
